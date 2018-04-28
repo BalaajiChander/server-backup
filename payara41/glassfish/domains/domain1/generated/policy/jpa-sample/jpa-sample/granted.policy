@@ -1,0 +1,15 @@
+/* AUTOMATICALLY GENERATED ON Sat Apr 28 22:28:34 IST 2018*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "org.bala.java.jee.config.control.ApplicationActivator", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+

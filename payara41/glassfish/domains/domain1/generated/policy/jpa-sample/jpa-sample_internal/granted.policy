@@ -1,0 +1,11 @@
+/* AUTOMATICALLY GENERATED ON Sat Apr 28 22:28:33 IST 2018*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "MyMain", "mynewmain,Local,";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "MyMain", "**";
+};
+
